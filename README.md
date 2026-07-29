@@ -1,2 +1,73 @@
-# Mini-fun-Projects-
-A beginner-friendly JavaScript project that changes the webpage background color using DOM manipulation and event listeners.
+# 🎨 Color Scheme Switcher
+
+A simple and beginner-friendly Color Scheme Switcher built using **HTML**, **CSS**, and **JavaScript**. Users can change the webpage background color by clicking on different color boxes.
+
+## 📸 Preview
+
+<img width="683" height="403" alt="image" src="https://github.com/user-attachments/assets/7446fed5-97a4-4b1f-952c-f01523b0558f" />
+
+
+## ✨ Features
+
+- 🎨 Change the background color with one click
+- ⚡ Instant color switching
+- 📱 Simple and responsive layout
+- 💻 Built with Vanilla JavaScript
+- 🧑‍💻 Beginner-friendly project
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (DOM Manipulation)
+- Gradient Color 
+
+## 📂 Project Structure
+
+```
+Color-Scheme-Switcher/
+│── index.html
+│── style.css
+│── script.js
+└── README.md
+```
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/color-scheme-switcher.git
+```
+
+2. Open the project folder.
+
+3. Open `index.html` in your browser.
+
+## 📚 What I Learned
+
+Through this project, I practiced:
+
+- Selecting elements using `querySelector()` and `querySelectorAll()`
+- Working with JavaScript Event Listeners
+- DOM Manipulation
+- Updating CSS dynamically with JavaScript
+- Organizing a simple front-end project
+
+## 🔮 Future Improvements
+
+- Add more color options
+- Add Dark Mode
+- Save selected theme using Local Storage
+- Add smooth animations and transitions
+- Improve mobile responsiveness
+
+## 👩‍💻 Author
+
+**Mariam Rajput**
+
+GitHub: https://github.com/mariamrajput7
+
+---
+
+⭐ If you like this project, consider giving it a star!

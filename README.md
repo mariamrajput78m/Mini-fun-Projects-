@@ -4,7 +4,8 @@ A simple and beginner-friendly Color Scheme Switcher built using **HTML**, **CSS
 
 ## 📸 Preview
 
-> Add a screenshot or GIF of your project here.
+<img width="683" height="403" alt="image" src="https://github.com/user-attachments/assets/7446fed5-97a4-4b1f-952c-f01523b0558f" />
+
 
 ## ✨ Features
 
@@ -19,6 +20,7 @@ A simple and beginner-friendly Color Scheme Switcher built using **HTML**, **CSS
 - HTML5
 - CSS3
 - JavaScript (DOM Manipulation)
+- Gradient Color 
 
 ## 📂 Project Structure
 

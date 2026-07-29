@@ -69,7 +69,7 @@ https://mariamrajput78m.github.io/Mini-fun-Projects-/
 
 **Mariam Rajput**
 
-GitHub: https://github.com/mariamrajput7
+GitHub: https://github.com/mariamrajput78m
 
 ---
 

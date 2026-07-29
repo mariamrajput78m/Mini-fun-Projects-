@@ -4,8 +4,7 @@ A simple and beginner-friendly Color Scheme Switcher built using **HTML**, **CSS
 
 ## 📸 Preview
 
-<img width="683" height="403" alt="image" src="https://github.com/user-attachments/assets/7446fed5-97a4-4b1f-952c-f01523b0558f" />
-
+<img width="1919" height="953" alt="Screenshot 2026-07-29 163925" src="https://github.com/user-attachments/assets/fdc702d1-169c-4294-99a2-3ff587fcb805" />
 
 ## ✨ Features
 
@@ -61,6 +60,10 @@ Through this project, I practiced:
 - Save selected theme using Local Storage
 - Add smooth animations and transitions
 - Improve mobile responsiveness
+
+## Live Demo 
+
+https://mariamrajput78m.github.io/Mini-fun-Projects-/
 
 ## 👩‍💻 Author
 

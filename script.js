@@ -17,5 +17,5 @@ btns.forEach(function (buttons) {
         else {
             body.style.background = e.target.id;
         }
-    })
-})
+    });
+});

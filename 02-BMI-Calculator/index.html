@@ -9,20 +9,85 @@
 </head>
 
 <body>
+    <div class="bubbles">
+        <div class="bubble b1"></div>
+        <div class="bubble b2"></div>
+        <div class="bubble b3"></div>
+        <div class="bubble b4"></div>
+        <div class="bubble b5"></div>
+        <div class="bubble b6"></div>
+    </div>
     <div class="container">
-        <h1>BMI Calculator</h1>
-        <form>
-            <p><label>Height in CM: </label><input type="text" id="height" /></p>
-            <p><label>Weight in KG: </label><input type="text" id="weight" /></p>
-            <button>Calculate</button>
-            <div id="result"></div>
-            <div id="weightguide">
-                <h3>BMI Weight Gude</h3>
-                <p>Under Weight = less than 18.6</p>
-                <p>Normal Weight = 18.6 to 24.9</p>
-                <p>Over Weight = Greater than 24.9</p>
+        <!-- PAGE 0: WELCOME -->
+        <div id="page-welcome" class="page active">
+            <div class="welcome-content">
+                <h1 class="big-title">BMI<br>Calculator</h1>
+                <p class="welcome-text">
+                    Welcome to BMI Calculator, your personal tool for tracking your
+                    Body Mass Index (BMI) and monitoring your health.
+                </p>
             </div>
-        </form>
+            <button id="start-btn">Start</button>
+        </div>
+
+        <!-- PAGE 1: INPUT -->
+        <div id="page-input" class="page">
+            <h1>BMI Calculator</h1>
+
+            <div class="gender-row">
+                <div class="gender-box" id="male-box" onclick="selectGender('male')">
+                    <div class="gender-icon male-icon">&#9794;</div>
+                    <p>Male</p>
+                </div>
+                <div class="gender-box" id="female-box" onclick="selectGender('female')">
+                    <div class="gender-icon female-icon">&#9792;</div>
+                    <p>Female</p>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <label>Height</label>
+                <div class="input-row">
+                    <input type="number" id="height" placeholder="61" />
+                    <span>cm</span>
+                </div>
+            </div>
+
+            <div class="input-row-double">
+                <div class="input-box small">
+                    <label>Weight</label>
+                    <div class="input-row">
+                        <input type="number" id="weight" placeholder="87" />
+                        <span>kg</span>
+                    </div>
+                </div>
+                <div class="input-box small">
+                    <label>Age</label>
+                    <div class="input-row">
+                        <input type="number" id="age" placeholder="29" />
+                    </div>
+                </div>
+            </div>
+
+            <button id="calculate-btn">Calculate</button>
+        </div>
+
+        <!-- PAGE 2: RESULT -->
+        <div id="page-result" class="page">
+            <h1>Result</h1>
+
+            <div class="bmi-circle">
+                <span class="bmi-value" id="bmi-value">0</span>
+                <span class="bmi-category" id="bmi-category">Normal</span>
+                <span class="bmi-unit">Kg/m&sup2;</span>
+            </div>
+
+            <p class="summary" id="summary-text"></p>
+            <p class="advice" id="advice-text"></p>
+
+            <button id="retry-btn">Retry</button>
+        </div>
+
     </div>
     <script src="script.js"></script>
 </body>

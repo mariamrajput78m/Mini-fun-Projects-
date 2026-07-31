@@ -63,7 +63,7 @@ Through this project, I practiced:
 
 ## Live Demo 
 
-https://mariamrajput78m.github.io/Mini-fun-Projects-/
+(https://staticfile-4356f.wasmer.app/)
 
 ## 👩‍💻 Author
 

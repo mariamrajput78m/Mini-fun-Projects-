@@ -19,7 +19,8 @@ A simple and beginner-friendly Color Scheme Switcher built using **HTML**, **CSS
 - HTML5
 - CSS3
 - JavaScript (DOM Manipulation)
-- Gradient Color 
+- Gradient Color
+- Vercel
 
 ## 📂 Project Structure
 
@@ -63,7 +64,7 @@ Through this project, I practiced:
 
 ## Live Demo 
 
-(https://staticfile-4356f.wasmer.app/)
+(https://mini-fun-projects-6ow3.vercel.app/)
 
 ## 👩‍💻 Author
 

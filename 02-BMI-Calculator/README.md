@@ -8,7 +8,7 @@ A sleek and interactive **BMI Calculator** built with **HTML, CSS & JavaScript**
 
 <br>
 
-🚀 **Live Demo:(https://mini-fun-projects.vercel.app/)
+🚀 **Live Demo:(https://bmicalculatorbymariamrajput.vercel.app/)
 
 
 

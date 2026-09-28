@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#game {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    overflow: hidden;
+    position: relative;
+}
+
+#dinasour {
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    left: 20px;
+    top: 240px;
+    background-color: red;
+}
+
+.animate {
+    animation: jump 500ms;
+}
+
+@keyframes jump {
+    0% {
+        top: 240px;
+    }
+
+    30% {
+        top: 190px;
+    }
+
+    70% {
+        top: 190px;
+    }
+
+    100% {
+        top: 240px;
+    }
+}
+
+#cactus {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    left: 480px;
+    animation: block 1s infinite linear;
+}
+
+@keyframes block {
+    0% {
+        left: 480px;
+    }
+
+    100% {
+        left: -40px;
+    }
+}
